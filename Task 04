@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    
+    double pi;
+    
+    pi=3.14159265358979;
+     
+    
+    printf("%.2lf is value of pi with two decimal places\n",pi); 
+     printf("%.4lf is value of pi with four decimal places\n",pi); 
+      printf("%.6lf is value of pi with six decimal places\n",pi); 
+       printf("%.10lf is value of pi with ten decimal places\n",pi); 
+   
+                                
+   return 0;
+}
