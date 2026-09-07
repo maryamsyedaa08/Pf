@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char Name[30];
+
+    printf("Enter your full name: \t");
+    fgets(Name, sizeof(Name), stdin);
+
+    printf("Your full name is: \t");
+    puts(Name);
+
+    return 0;
+}
