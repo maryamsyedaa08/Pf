@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    
+    char stdname[30] = "fatima";
+    char section='A';
+    int rollno=0245;
+    float marks=88.25;
+    double per=90.6332;
+
+    printf("Student name: %s\n", stdname);
+    printf("section:%c\n",section);
+    printf("roll no: %d\n",rollno);
+    printf("obt marks: %.2f\n",marks);
+    printf("percentage: %.4lf%\n",per);      
+       
+   return 0;
+}
