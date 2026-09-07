@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    
+    char name[30] = "Fatima";
+    int rollno=0245;
+    char depart[35]="Computer Science";
+     
+    
+    printf("Student name: %s\t",name); 
+    printf("roll no: %d\a\t\n\n",rollno);  
+    printf("department:\\%s\"",depart);
+   
+                                
+   return 0;
+}
