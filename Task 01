@@ -1,5 +1,0 @@
-#include<stdio.h>
-2.
-3. main(){
-4. printf(“Hello World”);
-5. }
