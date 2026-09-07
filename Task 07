@@ -1,0 +1,11 @@
+#include <stdio.h>
+08
+09 int main() {
+10 int age;
+11 float height;
+12 printf("Enter your age and height: ");
+13 scanf("%d %f", &age, &height);
+14 printf("You are %d years old and %.2f meters tall.\n", age,
+height);
+15 return 0;
+16 }
